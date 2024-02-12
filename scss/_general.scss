@@ -1,0 +1,48 @@
+@font-face {
+    font-family: $font;
+    src: url("../fonts/Minecraft.ttf");
+}
+
+body {
+    background-color: $bg-color;
+    color: white;
+    font-family: $font;
+    padding: 0%;
+    margin: 0%;
+}
+
+.row:has(.navbar) {
+    border-bottom: 0.2em solid white;
+    margin-bottom: 1em;
+    .navbar-nav {
+        li {
+            text-align: center;
+        }
+    }
+}
+
+// main {
+//     margin: 2em;
+//     .row, .col {
+//         margin-bottom: 1em;
+//     }
+//     .grid-container {
+//         @media(min-width:960px) {
+//             display: grid;
+//             grid-template-areas: "news logo" "news info";
+//             >div {
+//                 // width: 500px;
+//                 text-align: center;
+//             }
+//             div:nth-of-type(1) {
+//                 grid-area: news;
+//             }
+//             div:nth-of-type(2) {
+//                 grid-area: logo;
+//             }
+//             div:nth-of-type(3) {
+//                 grid-area: info;
+//             }
+//         }
+//     }
+// }
